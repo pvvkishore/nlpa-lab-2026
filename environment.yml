@@ -1,0 +1,24 @@
+name: nlpa_2026
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    # Notebook environment
+    - jupyterlab
+    - ipywidgets
+    # Local LLM client
+    - ollama
+    - openai
+    # Classical tokenizers
+    - nltk
+    - spacy
+    - sacremoses
+    - stanza
+    # Learned tokenizers
+    - transformers
+    - tokenizers
+    - sentencepiece
+    - tiktoken
