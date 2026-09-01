@@ -22,3 +22,12 @@ dependencies:
     - tokenizers
     - sentencepiece
     - tiktoken
+    # Deep learning + vectors
+    - torch
+    - numpy
+    - pandas
+    - scikit-learn
+    - matplotlib
+    # Lab 05 — pretrained embeddings
+    - gensim
+    - sentence-transformers
